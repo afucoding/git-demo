@@ -8,16 +8,15 @@ int main() {
 	{
 		double N, K, Ns, L = 0.0;
 		L = 0.430;
-		cout << "请输入一个N值";
+		cout << "input Ns: ";
 		cin >> Ns;
 		K = ((-(1.0 / L) * log(1 - Ns / 100.0)));
-		cout << "K的值是：" << K << endl;
-		cout << "请输入一个K值";
+		cout << "K: " << K << endl;
+		cout << "input K: ";
 		cin >> K;
 		N = 100 * (1 - pow(M_E, -(L / 2) * K));
 		Ns = 1 - pow(M_E, 0.430 / (L / 2) * log(1 - N / 100));
-		cout << "N的值是：" << N << " Ns的值是：" << Ns << endl;
-	
+		cout << "K:  << K << "N: " << N << " Ns: " << Ns << endl;
 	}
 	return 0;
 }
