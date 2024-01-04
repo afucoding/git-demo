@@ -16,7 +16,7 @@ int main() {
 		cin >> K;
 		N = 100 * (1 - pow(M_E, -(L / 2) * K));
 		Ns = 1 - pow(M_E, 0.430 / (L / 2) * log(1 - N / 100));
-		cout << "K:  << K << "N: " << N << " Ns: " << Ns << endl;
+		cout << "K: " << K << "N: " << N << " Ns: " << Ns << endl;
 	}
 	return 0;
 }
