@@ -6,8 +6,8 @@ using namespace std;
 int main() {
 	while (true)
 	{
-		double N, K, Ns, L = 0.0;
-		L = 0.430;
+		double N, K, Ns= 0.0;
+		double L = 0.430;
 		cout << "input Ns: ";
 		cin >> Ns;
 		K = ((-(1.0 / L) * log(1 - Ns / 100.0)));
